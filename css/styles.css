@@ -1,0 +1,72 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Arial";
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  text-transform: uppercase;
+  background-color: white;
+  height: 100%;
+  font-weight: bold;
+  color: steelblue;
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  outline: none;
+}
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+.head {
+  color: white;
+  text-align: center;
+  background-color: steelblue;
+  padding: 20px 0;
+}
+
+.stripe {
+  background-color: white;
+  height: 40px;
+  text-align: center;
+  color: black;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 0.5s;
+}
+
+.picker {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#colorDisplay {
+  font-size: 150%;
+}
+
+#gameResult {
+  display: inline-block;
+  width: 20%;
+}
